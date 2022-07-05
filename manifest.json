@@ -10,7 +10,7 @@
   "manifest_version": 2,
   "name": "WhatsApp - Thunderbird",
   "version": "1.0",
-  "homepage_url": "https://github.com/Hou-Rui",
+  "homepage_url": "https://github.com/Hou-Rui/Whatsapp-thunderbird",
   "icons": {
     "48": "icons/Whatsapp-48.png"
   },
