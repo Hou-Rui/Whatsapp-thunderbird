@@ -1,0 +1,30 @@
+﻿{
+  "applications": {
+    "gecko": {
+      "id": "whatsapp-tb@hou-rui",
+      "strict_min_version": "78.0",
+      "strict_max_version": "102.*"
+    }
+  },
+  "description": "Adds browser action icon to toolbar to open WhatsApp.",
+  "manifest_version": 2,
+  "name": "WhatsApp - Thunderbird",
+  "version": "1.0",
+  "homepage_url": "https://github.com/Hou-Rui",
+  "icons": {
+    "48": "icons/Whatsapp-48.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "*://web.whatsapp.com/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/Whatsapp-32.png"
+  }
+
+}
